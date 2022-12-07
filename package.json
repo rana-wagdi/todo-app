@@ -13,7 +13,6 @@
     "core-js": "^3.8.3",
     "vue": "^2.7.10",
     "vue-drag-and-drop-list": "^1.0.0",
-    "vue3-draggable": "^2.0.9",
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
