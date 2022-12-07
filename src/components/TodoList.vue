@@ -18,6 +18,7 @@
       <draggable>
         <li class="task_list" v-for="list in setFilter(type)" :key="list.id">
           <div class="task_list_content">
+          <label>
             <input
               class="goalCheck"
               :value="list.id"
@@ -25,6 +26,7 @@
               v-model="list.completed"
             />
             <span class="task_list_text">{{ list.task }}</span>
+          </label>
           </div>
           <span @click="removeTask(list.id)"
             ><i class="bi bi-x-circle close_icon"></i
