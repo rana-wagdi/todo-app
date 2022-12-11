@@ -211,11 +211,13 @@ input:focus {
   border-radius: 50%;
   cursor: pointer;
   margin-top: 0.5rem;
+  touch-action: manipulation;
 }
 .dark .goalCheck[type="checkbox"] {
   background-color: hsl(235, 24%, 19%);
   transition: background 300ms;
   transition: 1s ease-in-out;
+
 }
 .light .goalCheck[type="checkbox"] {
   background-color: hsl(0, 0%, 98%);
@@ -233,6 +235,7 @@ input:focus {
   border-radius: inherit;
   border: 0;
   background-size: contain;
+  touch-action: manipulation;
 }
 [type="checkbox"]:checked::before {
   box-shadow: none;
