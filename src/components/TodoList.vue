@@ -91,7 +91,7 @@ export default {
       this.enterGoal = "";
     },
     removeTask(taskId) {
-      var result = confirm("Do you want Delete completed TODO are you sure? ");
+      var result = confirm("Do you want Delete this TODO are you sure? ");
       if (result) {
       const getTaskId = this.todoLists.find((ele) => ele.id == taskId);
       const todoELePosition = this.todoLists.indexOf(getTaskId);
